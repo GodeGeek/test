@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "./node_modules/uikit/dist/css/uikit.min.css",
+              "./node_modules/uikit/dist/css/uikit-core.min.css"
+          ],
+          "scripts": [
+              "./node_modules/uikit/dist/js/uikit.min.js",
+              "./node_modules/uikit/dist/js/uikit-icons.min.js"
+          ]
           },
           "configurations": {
             "production": {
@@ -91,9 +96,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "./node_modules/uikit/dist/css/uikit.min.css",
+              "./node_modules/uikit/dist/css/uikit-core.min.css"
+          ],
+          "scripts": [
+              "./node_modules/uikit/dist/js/uikit.min.js",
+              "./node_modules/uikit/dist/js/uikit-icons.min.js"
+          ]
           }
         },
         "lint": {
@@ -124,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "post-site"
+  "defaultProject": "post-site",
+  "cli": {
+    "analytics": "d8d6bc8d-15d0-403c-beff-e1fa733c3631"
+  }
 }
